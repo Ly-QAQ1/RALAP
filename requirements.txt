@@ -1,0 +1,33 @@
+# Runtime dependencies verified in the `RALAP` conda environment.
+# Python itself and CUDA/PyTorch system components are managed by conda.
+
+torch==2.10.0
+torchvision==0.25.0
+transformers==5.5.4
+vllm==0.19.1
+
+accelerate==1.13.0
+datasets==4.8.4
+deepspeed==0.18.9
+evaluate==0.4.6
+wandb==0.25.1
+
+numpy==2.2.6
+pandas==3.0.2
+Pillow==12.1.1
+PyYAML==6.0.3
+tqdm==4.67.3
+safetensors==0.7.0
+filelock==3.25.2
+
+# Metrics and retrieval utilities used by evaluation/analysis scripts.
+bert-score==0.3.13
+sacrebleu==2.6.0
+rouge-score==0.1.2
+absl-py==2.4.0
+rank-bm25==0.2.2
+sentencepiece==0.2.1
+
+# Optional training acceleration. Install separately with:
+#   pip install flash-attn --no-build-isolation
+# The default run-train.sh path uses SDPA when flash-attn is unavailable.
