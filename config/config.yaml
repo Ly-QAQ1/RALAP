@@ -1,1 +1,8 @@
+data_para:
+  dataset_name: "mmimdb" # mmimdb, hatememes, food101
+  max_text_len: 128
+  max_image_len: 145
 
+
+device: "cuda:0"
+batch_size: 64
