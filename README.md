@@ -8,7 +8,7 @@ Missing modalities make multimodal classifiers brittle because the available evi
 
 ## Framework
 
-[View the RALAP framework (PDF)](fig/method_framework.pdf).
+![RALAP framework](fig/method_framework.png)
 
 1. A retrieval module selects complete multimodal neighbors from a dataset-specific memory bank.
 2. A sparse autoencoder bottleneck maps self and target-neighbor difference embeddings to differential soft prompts; a similarity-kernel label-attention module aggregates retrieved labels into a label prompt.
