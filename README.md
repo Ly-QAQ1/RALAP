@@ -1,4 +1,4 @@
-# Retrieval-Augmented Label-Attention Prompt Learning (RALAP)
+# Retrieval-Augmented Label-Attentive Prompt Learning (RALAP)
 
 This repository provides the research code for **Retrieval-Augmented Label-Attentive Prompt Learning for Multimodal Classification with Missing Modalities (RALAP)**. RALAP uses retrieved complete multimodal samples as evidence to form dynamic soft prompts for a frozen Qwen2-VL model.
 
